@@ -26,7 +26,7 @@ Then, you can modify the `dashboard.blade.php` file:
 
 ```diff
 <x-pulse>
-+    <livewire:pulse.panphp cols='4' rows='2' />
++    <livewire:pulse.panphp cols='6' />
 
     <livewire:pulse.servers cols="full" />
 
