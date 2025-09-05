@@ -13,7 +13,7 @@ This pulse card displays the [Pan PHP Analytics](https://github.com/panphp/pan) 
 You can install the package via composer:
 
 ```bash
-composer require schmeits/pulse-panphp
+composer require raveltan/pulse-panphp
 ```
 
 ## Usage
