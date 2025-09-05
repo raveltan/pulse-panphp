@@ -10,10 +10,20 @@ This pulse card displays the [Pan PHP Analytics](https://github.com/panphp/pan) 
 
 ## Installation
 
-You can install the package via composer:
+> As this is a fork to make sure that the package is compatible with Laravel 12, I am not publishing this to composer
 
-```bash
-composer require raveltan/pulse-panphp
+In your app's composer.json
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/<your-username>/pulse-panphp"
+    }
+]
+```
+and run 
+```
+composer require raveltan/pulse-panphp:dev-main
 ```
 
 ## Usage
